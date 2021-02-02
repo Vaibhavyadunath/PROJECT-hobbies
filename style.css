@@ -87,7 +87,7 @@ p {
     color: black;
 }
 
-.links {
+.link {
     float: right;
     color: #fff;
     padding-top: 5px;
@@ -98,7 +98,14 @@ p {
     font-size: 20px
 }
 
-.links:hover {
-    background-color: fuchsia;
+.link:hover {
+    background-color: dodgerblue;
 }
-
+html{
+    scroll-behavior: smooth;
+}
+a { text-decoration:overline 
+}
+.article:hover{
+    color: fuchsia;
+}

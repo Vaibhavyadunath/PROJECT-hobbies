@@ -4,15 +4,42 @@
     <title>My hobbies</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        .link {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: mediumturquoise;
+            background-color: aqua;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px paleturquoise;
+        }
+
+        .link:hover {
+            background-color: lightcyan
+        }
+
+        .link:active {
+            background-color: darkturquoise;
+            box-shadow: 0 5px turquoise;
+            transform: translateY(4px);
+        }
+
+    </style>
 </head>
 
 <body>
     <ul class="menu">
-        <li class="link"> About </li>
-        <li class="link"> My fravorite books </li>
-        <li class="link">My work </li>
-        <li class="link"> Inspiration </li>
-        <li class="link"> contact </li>
+        <li class="link"><a href="#About"> About </li>
+        <li class="link"><a href="#My favorite books"> My fravorite books </li>
+        <li class="link"><a href="#My work">My work </li>
+        <li class="link"><a href="#Inspiration"> Inspiration </li>
+        <li class="link"><a href="#Contact"> contact </li>
     </ul>
     <section id="welcome" class="parallax-container">
         <div class="parallax-inner">
@@ -35,6 +62,41 @@
 
 
             A regular school day will teach you only those topics that are mentioned in your syllabus. However, a hobby will teach you much more than that. It will introduce you to newer topics. This will help you in becoming a knowledgeable person.</p>
+    </section>
+    <section id="About">
+        <h1>
+            Why read books
+        </h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://medium.com/@allanchurchboykakinda/why-read-books-4-reasons-for-you-to-start-reading-at-least-one-book-per-month-cbe542a55294" frameborder="1"></iframe>
+    </section>
+    <section id="My favorite books">
+        <h1>
+            My favorite books
+        </h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://www.lifehack.org/articles/communication/30-books-that-everyone-should-read-least-once-their-lives.html" frameborder="1"></iframe>
+    </section>
+    <section id="My work">
+        <h1>
+            My work
+        </h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/J._K._Rowling#Life_and_career" frameborder="1"></iframe>
+    </section>
+    <section id="Inspiration">
+        <h1>
+            Inspiration
+        </h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/J._K._Rowling" frameborder="1"></iframe>
+    </section>
+    <section id="Contact">
+        <h1>
+            Contact
+        </h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://www.jkrowling.com/enquiries/#:~:text=Jo%20rarely%20gives%20interviews%20or,at%20info%40jkrowling.com." frameborder="1"></iframe>
     </section>
 </body>
 
