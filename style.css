@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
+    background: linear-gradient(#EDDE5D 0%, #F09819 100%);
 }
 
 .profile {
@@ -95,17 +97,71 @@ p {
     padding-right: 9px;
     padding-bottom: 5px;
     font-family: fantasy;
-    font-size: 20px
+    font-size: 20px;
+    transition: transform .2s;
 }
 
 .link:hover {
     background-color: dodgerblue;
+    transform: scale(0.9)
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-a { text-decoration:overline 
+
+a {
+    text-decoration: overline
 }
-.article:hover{
+
+.article:hover {
     color: fuchsia;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9)
+}
+
+#About {
+    background: linear-gradient(#02AAB0 0%, #00CDAC 100%);
+}
+
+#My favorite books {
+    background: linear-gradient(#EDE574 0%, #E1F5C4 100%);
+}
+
+#Inspiration {
+    background: linear-gradient(#314755 0%, #26a0da 100%);
+    color: azure;
+}
+
+#Contact {
+    background: linear-gradient(#e65c00 0%, #F9D423 100%);
+}
+
+#pot {
+    background: linear-gradient(#2193b0 0%, #6dd5ed 100%);
+}
+#h1 {
+    transition: transform .2s; 
+}
+h1:hover {
+   transform: scale(0.9) 
+}
+#p {
+    transition: transform .5s;  
+}
+p:hover {
+     transform: scale(0.99) ;
+}
+#iframe {
+    transition: transform .5s;   
+}
+iframe:hover {
+   transform: scale(0.99) ;  
 }
