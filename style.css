@@ -90,20 +90,17 @@ p {
 }
 
 .link {
-    float: right;
-    color: #fff;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
-    font-family: fantasy;
+    display: inline;
+    padding-left: fantasy;
     font-size: 20px;
-    transition: transform .2s;
+
 }
 
 .link:hover {
     background-color: dodgerblue;
-    transform: scale(0.9)
+    transform: scale(0.9);
+    font-size: 25px;
+    text-decoration: underline;
 }
 
 html {
@@ -111,7 +108,10 @@ html {
 }
 
 a {
-    text-decoration: overline
+
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
 }
 
 .article:hover {
@@ -147,21 +147,48 @@ img:hover {
 #pot {
     background: linear-gradient(#2193b0 0%, #6dd5ed 100%);
 }
+
 #h1 {
-    transition: transform .2s; 
+    transition: transform .2s;
 }
+
 h1:hover {
-   transform: scale(0.9) 
+    transform: scale(0.9)
 }
+
 #p {
-    transition: transform .5s;  
+    transition: transform .5s;
 }
+
 p:hover {
-     transform: scale(0.99) ;
+    transform: scale(0.99);
 }
+
 #iframe {
-    transition: transform .5s;   
+    transition: transform .5s;
 }
+
 iframe:hover {
-   transform: scale(0.99) ;  
+    transform: scale(0.99);
+}
+
+#writings a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+
+#contact {
+    background: firebrick;
+}
+
+#contact iframe {
+    width: 100%
+}
+
+}
+
+.contact_1 a {
+    color: white;
+    text-shadow: none;
 }
