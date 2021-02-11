@@ -1,109 +1,115 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>My hobbies</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap" rel="stylesheet">
+    <title>AVENGERS</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-    <style>
-        .link {
-            display: inline-block;
-            padding: 15px 25px;
-            font-size: 24px;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            outline: none;
-            color: mediumturquoise;
-            background-color: aqua;
-            border: none;
-            border-radius: 15px;
-            box-shadow: 0 9px paleturquoise;
-        }
-
-        .link:hover {
-            background-color: lightcyan
-        }
-
-        .link:active {
-            background-color: darkturquoise;
-            box-shadow: 0 5px turquoise;
-            transform: translateY(4px);
-        }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="link"><a href="#About"> About </a> </li>
-        <li class="link"><a href="#My favorite books"> My fravorite books </a> </li>
-        <li class="link"><a href="#My work">My work </a> </li>
-        <li class="link"><a href="#Inspiration"> Inspiration </a> </li>
-        <li class="link"><a href="#Contact"> contact </a> </li>
-    </ul>
-    <section id="welcome" class="parallax-container">
-        <div class="parallax-inner">
-            <img src="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="profile" />
-            <h1>My Hobbies is <br>
-
-                <span id="name">Reading Books</span>
-            </h1>
-            <h2> I love reading books </h2>
-
+    <h1> Grid Gallery</h1>
+    <span><img src="97d1d9f934a350cee765c5ac1a466605.jpg"> </span>
+    <span> <img src="088536673e7d92d183fcc584f26c5603577ec5886c9f8978e7e49ac9f131bcf5.jpg"></span>
+    <span> <img src="boseman.jpg"> </span>
+    <span> <img src="captain-america_640x480_51499156667.jpg"> </span>
+    <hr>
+    <span> <img src="captain_marvel_poster_1688.1537366019.jpg"> </span>
+    <span> <img src="iron-man-avengers-1200.jpeg"> </span>
+    <span> <img src="maxresdefault.jpg"> </span>
+    <span> <img src="104819285-thor.jpg"> </span>
+    <div class="container">
+        <h1> Slide Gallery</h1>
+        <div id="myCarousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center> <a href="#" target="_blank"> <img src="97d1d9f934a350cee765c5ac1a466605.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Thanos</p>
+                            <hr>
+                            <br>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="088536673e7d92d183fcc584f26c5603577ec5886c9f8978e7e49ac9f131bcf5.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Gamora</p>
+                            <hr>
+                            <br>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="104819285-thor.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Thor</p>
+                            <hr>
+                            <br>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="boseman.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Black Panther </p>
+                           <hr> 
+                            <br>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="captain_marvel_poster_1688.1537366019.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Captain Marvel</p>
+                            <hr>
+                            <br>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="captain-america_640x480_51499156667.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Captain America</p>
+                            <hr>
+                            <br>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="iron-man-avengers-1200.jpeg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Iron Man</p>
+                            <hr>
+                            <br>
+                        </div>
+                    </center>
+                </div>
+                  <div class="item">
+                    <center> <a href="#" target="_blank"> <img src="maxresdefault.jpg" class="img-responsive"> </a>
+                        <div class="carousel-content">
+                            <p>Hulk</p>
+                            <hr>
+                            
+                        </div>
+                    </center>
+                </div>
+            </div> <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+            <hr>
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
+                 <li data-target="#myCarousel" data-slide-to="1" class="active"> </li>
+                 <li data-target="#myCarousel" data-slide-to="2" class="active"> </li>
+                 <li data-target="#myCarousel" data-slide-to="3" class="active"> </li>
+                 <li data-target="#myCarousel" data-slide-to="4" class="active"> </li>
+                 <li data-target="#myCarousel" data-slide-to="5" class="active"> </li>
+                 <li data-target="#myCarousel" data-slide-to="6" class="active"> </li>
+                 <li data-target="#myCarousel" data-slide-to="7" class="active"> </li>
+            </ol>
         </div>
-    </section>
-    <section id="bio">
-        <h1>About</h1>
-        <div class="line"></div>
-        <p>For a student, a hobby would mean taking some time off from classes and utilizing it for something that he likes to do. A hobby should come to you naturally. It should not be enforced by anyone. If it has to be enforced upon you then, you will soon lose interest in it. The main purpose of a hobby would be lost.
-
-            Some people like to read books as a hobby. It is a great way to improve one’s vocabulary. This makes them aware of plenty of things that schools might not teach them. Life is short, and the world is vast. There is a galaxy of knowledge out there, waiting for us to stumble upon it. That is the main purpose of hobbies. To make us aware of things those are beyond the confines of our classroom walls.
-
-
-
-            A regular school day will teach you only those topics that are mentioned in your syllabus. However, a hobby will teach you much more than that. It will introduce you to newer topics. This will help you in becoming a knowledgeable person.</p>
-    </section>
-    <section id="About">
-        <h1>
-            Why read books
-        </h1>
-        <div class="line"></div>
-        <iframe width="900" height="1000" src="https://medium.com/@allanchurchboykakinda/why-read-books-4-reasons-for-you-to-start-reading-at-least-one-book-per-month-cbe542a55294" frameborder="1"></iframe>
-    </section>
-    <section id="My favorite books">
-        <h1>
-            My favorite books
-        </h1>
-        <div class="line"></div>
-        <iframe width="900" height="1000" src="https://www.lifehack.org/articles/communication/30-books-that-everyone-should-read-least-once-their-lives.html" frameborder="1"></iframe>
-    </section>
-    <section id="My work">
-        <h1>
-            My work
-        </h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/playlab/ZZ78kr60xICV2UJImGeu8S0X3CdoF6cpJRi5jJNVKeo"> <img src="thim.png"></a>
-    </section>
-    <section id="Inspiration">
-        <h1>
-            Inspiration
-        </h1>
-        <div class="line"></div>
-        <a href="https://en.wikipedia.org/wiki/J._K._Rowling" target="_blank"> <img src="220px-J._K._Rowling_2010.jpg"> </a>
-        <a href="https://en.wikipedia.org/wiki/Ernest_Hemingway" target="_blank"><img src="220px-ErnestHemingway.jpg"></a>
-    </section>
-    <section id="contact">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWhitehat%20Education%20Technology%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1612885906460!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <div class="contact_1">
-
-
-            <a href="y.yadunath@gmail.com?Subject=Hello" id="myname"><i class="fa fa-instagram"></i>&nbsp;&nbsp;<h3>y.yadunath@gmail.com
-
-                </h3></a></div></section></body></html>
-
-       
+    </div>
+</body>

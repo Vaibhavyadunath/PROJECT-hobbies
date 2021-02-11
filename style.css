@@ -1,194 +1,31 @@
-body {
-    margin: 0;
-    padding-top: 800px;
-    text-align: center;
-    background: linear-gradient(#EDDE5D 0%, #F09819 100%);
-}
-
-.profile {
-    width: 175px;
-    margin-bottom: 50px;
-    border-radius: 50%;
-}
-
-#welcome {
-    position: absolute;
-    overflow: hidden;
-    height: 800px;
-    color: #FFFFFF;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0.83;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
-    display: table;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-}
-
-h1 {
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-}
-
-#name {
-    font-size: 30px;
-    line-height: 1.2;
-    font-family: 'Comic+Neue', cursive
-}
-
-h2 {
-    font-size: 30px;
-    font-weight: 300;
-    line-height: 1.2;
-    font-family: monospace
-}
-
-#bio {
-    padding: 50px;
-    text-align: center;
-    font-size: 42px;
-    font-family: 'Comic+Neue', cursive;
-    background: linear-gradient(#FFAFBD 0%, #ffc3a0 100%);
-}
-
-.line {
-    height: 6px;
-    background-color: #000;
-    width: 70px;
-    margin: 8px auto;
-}
-
-p {
-    max-width: 450px;
-    margin: 25px auto;
-    font-size: 17px;
-    line-height: 1.3;
-}
-
-.parallax-inner {
-    display: table-cell;
-    position: relative;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.menu {
-    list-style: none;
-    font-family: cursive;
-    float: right;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    z-index: 10;
-    cursor: pointer;
-    color: black;
-}
-
-.link {
-    display: inline;
-    padding-left: fantasy;
-    font-size: 20px;
-
-}
-
-.link:hover {
-    background-color: dodgerblue;
-    transform: scale(0.9);
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-a {
-
-    text-decoration: none;
-    color: crimson;
-    text-shadow: 2px 2px gainsboro;
-}
-
-.article:hover {
-    color: fuchsia;
-}
-
 img {
-    transition: transform .2s;
-    border: 10px solid #AAAAAA;
+    width: 300px;
+    height: 200px;
+
 }
 
-img:hover {
-    transform: scale(0.9)
+.container
+{
+    text-align: center;
 }
-
-#About {
-    background: linear-gradient(#02AAB0 0%, #00CDAC 100%);
+#myCarousel {
+    background-color: black;
 }
-
-#My favorite books {
-    background: linear-gradient(#EDE574 0%, #E1F5C4 100%);
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
 }
-
-#Inspiration {
-    background: linear-gradient(#314755 0%, #26a0da 100%);
+.carousel-inner p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white
+    font-size: 20px;
+}
+p {
+    font-size: 20px;
     color: azure;
 }
-
-#Contact {
-    background: linear-gradient(#e65c00 0%, #F9D423 100%);
-}
-
-#pot {
-    background: linear-gradient(#2193b0 0%, #6dd5ed 100%);
-}
-
-#h1 {
-    transition: transform .2s;
-}
-
-h1:hover {
-    transform: scale(0.9)
-}
-
-#p {
-    transition: transform .5s;
-}
-
-p:hover {
-    transform: scale(0.99);
-}
-
-#iframe {
-    transition: transform .5s;
-}
-
-iframe:hover {
-    transform: scale(0.99);
-}
-
-#writings a {
-    text-shadow: none !important;
-    text-decoration: underline !important;
-    color: blue !important;
-}
-
-#contact {
-    background: firebrick;
-}
-
-#contact iframe {
-    width: 100%
-}
-
-}
-
-.contact_1 a {
-    color: white;
-    text-shadow: none;
+body {
+    text-align: center;
+    background:linear-gradient(90deg, rgba(252,0,209,1) 0%, rgba(188,0,255,1) 16%, rgba(184,0,233,1) 33%, rgba(0,212,255,1) 100%);
 }
